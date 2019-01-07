@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<TableView fx:id="tableView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columns>
+    <TableColumn fx:id="orderId" prefWidth="248.0" text="订单ID" />
+    <TableColumn fx:id="shoppingTime" prefWidth="130.0" text="购买日期" />
+      <TableColumn fx:id="pay" prefWidth="120.0" text="支付金额" />
+      <TableColumn fx:id="detail" prefWidth="110.0" text="详情" />
+  </columns>
+</TableView>
